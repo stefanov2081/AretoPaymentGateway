@@ -1,0 +1,84 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32228.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{53484095-B1A4-49DC-A6EE-3CD4B06A918C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AretoPaymentGateway.Domain", "AretoPaymentGateway.Domain\AretoPaymentGateway.Domain.csproj", "{E54C9950-C88D-4505-805D-4A0F59BDDFD8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{FC88686E-3944-4CB4-804C-07DE95901ADA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AretoPaymentGateway.Application", "AretoPaymentGateway.Application\AretoPaymentGateway.Application.csproj", "{7099EA4E-AFBB-4A39-9DD5-3D641EDC45CB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Interfaces", "Interfaces", "{89AE3D84-E930-4902-970D-5A963E905A73}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AretoPaymentGateway.Interfaces.WebApi", "AretoPaymentGateway.Interfaces.WebApi\AretoPaymentGateway.Interfaces.WebApi.csproj", "{A5C81D88-EB09-42F1-AD71-BEC73F747E97}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{B32FB188-8332-40AD-9657-AED13AAF4306}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution items", "Solution items", "{F6B938EB-9E74-4550-AC1C-EED3921AD7FD}"
+	ProjectSection(SolutionItems) = preProject
+		C:\Users\mandjah\Downloads\ARETO - Exercise .net API integration acquirer.pdf = C:\Users\mandjah\Downloads\ARETO - Exercise .net API integration acquirer.pdf
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AretoPaymentGateway.Infrastructure.Persistence.EfCore", "AretoPaymentGateway.Infrastructure.Persistence.EfCore\AretoPaymentGateway.Infrastructure.Persistence.EfCore.csproj", "{C60EC0E0-2AA1-45DC-831B-D13C5A8E4428}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AretoPaymentGateway.Infrastructure.PaymentAcquirers", "AretoPaymentGateway.Infrastructure.PaymentAcquirers\AretoPaymentGateway.Infrastructure.PaymentAcquirers.csproj", "{E44EBA0B-06D9-4CDC-B1C7-DD06738897C8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{36EB53EB-9B31-47C6-ACBD-4A02639A065A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{F13C2862-4D73-4AF0-AAE5-24AB0CB426B0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AretoPaymentGateway.Interfaces.WebApi.Tests.Integration", "AretoPaymentGateway.Interfaces.WebApi.Tests.Integration\AretoPaymentGateway.Interfaces.WebApi.Tests.Integration.csproj", "{2CF069D6-9605-4D2E-8D79-CB592A88E48C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E54C9950-C88D-4505-805D-4A0F59BDDFD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E54C9950-C88D-4505-805D-4A0F59BDDFD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E54C9950-C88D-4505-805D-4A0F59BDDFD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E54C9950-C88D-4505-805D-4A0F59BDDFD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7099EA4E-AFBB-4A39-9DD5-3D641EDC45CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7099EA4E-AFBB-4A39-9DD5-3D641EDC45CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7099EA4E-AFBB-4A39-9DD5-3D641EDC45CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7099EA4E-AFBB-4A39-9DD5-3D641EDC45CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5C81D88-EB09-42F1-AD71-BEC73F747E97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5C81D88-EB09-42F1-AD71-BEC73F747E97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5C81D88-EB09-42F1-AD71-BEC73F747E97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5C81D88-EB09-42F1-AD71-BEC73F747E97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C60EC0E0-2AA1-45DC-831B-D13C5A8E4428}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C60EC0E0-2AA1-45DC-831B-D13C5A8E4428}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C60EC0E0-2AA1-45DC-831B-D13C5A8E4428}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C60EC0E0-2AA1-45DC-831B-D13C5A8E4428}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E44EBA0B-06D9-4CDC-B1C7-DD06738897C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E44EBA0B-06D9-4CDC-B1C7-DD06738897C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E44EBA0B-06D9-4CDC-B1C7-DD06738897C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E44EBA0B-06D9-4CDC-B1C7-DD06738897C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CF069D6-9605-4D2E-8D79-CB592A88E48C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CF069D6-9605-4D2E-8D79-CB592A88E48C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CF069D6-9605-4D2E-8D79-CB592A88E48C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CF069D6-9605-4D2E-8D79-CB592A88E48C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{53484095-B1A4-49DC-A6EE-3CD4B06A918C} = {36EB53EB-9B31-47C6-ACBD-4A02639A065A}
+		{E54C9950-C88D-4505-805D-4A0F59BDDFD8} = {53484095-B1A4-49DC-A6EE-3CD4B06A918C}
+		{FC88686E-3944-4CB4-804C-07DE95901ADA} = {36EB53EB-9B31-47C6-ACBD-4A02639A065A}
+		{7099EA4E-AFBB-4A39-9DD5-3D641EDC45CB} = {FC88686E-3944-4CB4-804C-07DE95901ADA}
+		{89AE3D84-E930-4902-970D-5A963E905A73} = {36EB53EB-9B31-47C6-ACBD-4A02639A065A}
+		{A5C81D88-EB09-42F1-AD71-BEC73F747E97} = {89AE3D84-E930-4902-970D-5A963E905A73}
+		{B32FB188-8332-40AD-9657-AED13AAF4306} = {36EB53EB-9B31-47C6-ACBD-4A02639A065A}
+		{C60EC0E0-2AA1-45DC-831B-D13C5A8E4428} = {B32FB188-8332-40AD-9657-AED13AAF4306}
+		{E44EBA0B-06D9-4CDC-B1C7-DD06738897C8} = {B32FB188-8332-40AD-9657-AED13AAF4306}
+		{2CF069D6-9605-4D2E-8D79-CB592A88E48C} = {F13C2862-4D73-4AF0-AAE5-24AB0CB426B0}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {286F5AA4-24CA-4FEF-9591-0688244C7F3F}
+	EndGlobalSection
+EndGlobal
